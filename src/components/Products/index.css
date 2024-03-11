@@ -1,0 +1,14 @@
+.product-card {
+    width: 150px;
+    margin: 10px;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 5px 2px #e0dbdb;
+    border-radius: 10px;
+}
+img {
+    width: 100px;
+}
+p {
+    font-size: 10px;
+}
