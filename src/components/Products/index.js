@@ -3,16 +3,18 @@ import "./index.css"
 
 const Products  = (props) =>{
     const {eachProduct} = props
-    const {title,image} = eachProduct
+    const {title,image,id} = eachProduct
     return(
+      <Link to={"/productdetails/"+id}>
        <div className="product-card">
-          <Link to="/productdetials">
+         
             <div>
                 <img src={image} alt={title}/>
                 <p>{title}</p>
             </div>
-          </Link>
+          
        </div>
+       </Link>
     )
 }
 export default Products

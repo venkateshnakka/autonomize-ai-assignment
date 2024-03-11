@@ -8,7 +8,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Error from './components/Error';
 import Contact from './components/Contact';
-import Productdetials from './components/Productdetails';
+import Productdetails from './components/Productdetails';
 import { Outlet } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -39,6 +39,10 @@ const appRouter = createBrowserRouter([
       {
         path:"/contact",
         element:<Contact />
+      },
+      {
+        path:"/productdetails/:id",
+        element:<Productdetails />
       }
     ]
   }  

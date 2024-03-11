@@ -1,0 +1,19 @@
+.products-bg {
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    border-radius: 20px;
+}
+.products-bg div{
+    width: 350px;
+}
+.description {
+    font-size: 15px;
+}
+p{
+    font-size: 13px;
+}
